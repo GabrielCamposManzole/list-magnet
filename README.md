@@ -6,7 +6,7 @@ O frontend da aplicação foi desenvolvido com HTML, CSS e JavaScript e o backen
 
 ## Endereço de Deploy - GitHub Pages
 
-
+https://github.com/GabrielCamposManzole/lista-de-compras.git
 
 ## Protótipo
 
