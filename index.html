@@ -29,28 +29,170 @@
         </form>
       </div>
     </nav>
-    <h1 class="text-center">Hello, world!</h1>
-    <div class="card" style="width: 18rem">
-      <img
-        class="img-thumbnail"
-        src="https://res.cloudinary.com/do1xokw4u/image/upload/v1695695243/e10951df4cb02142fd4d6a14c3f59bb9_bjzewl.webp"
-        alt=""
-      />
-      <div class="card-body">
-        <h3 class="card-title">Coca cola lt 350 ml</h3>
-        <div class="container mt-5">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="quantity-container">
-                <button class="quantity-btn" id="decreaseQuantity">-</button>
-                <span class="quantity-label" id="quantity">0</span>
-                <button class="quantity-btn" id="increaseQuantity">+</button>
-              </div>
-            </div>
+    <div class="col-12 row align-items-start">
+      <button class="botao btn btn-darck col" id="sessoes">Sessões</button>
+
+      <button class="botao btn btn-darck col" id="lista">Lista</button>
+    </div>
+    <div class="col-6">
+      <select
+        class="form-select form-select-lg mb-3"
+        aria-label="Large select example"
+      >
+        <option selected>Sessões</option>
+        <option value="bebidas">Bebidas</option>
+        <option value="2">Cereais</option>
+        <option value="limpeza">Limpeza</option>
+      </select>
+    </div>
+
+    <!--Card-Produto -->
+    <div class="container-fluid row" id="bebidas">
+      <div class="card col-6" style="width: 18rem">
+        <img
+          class="card-img-top"
+          src="https://res.cloudinary.com/do1xokw4u/image/upload/v1695695243/e10951df4cb02142fd4d6a14c3f59bb9_bjzewl.webp"
+          alt=""
+        />
+
+        <div class="card-body">
+          <h5 class="card-title">Coca-cola-350ml</h5>
+          <p class="fw-medium">Lata-descartavel</p>
+          <div class="row align-items-start">
+            <button class="botao btn btn-danger col" id="btn-menos">-</button>
+            <input
+              class="text-center col fs-4 form-control"
+              type="number"
+              name="btn-valor"
+              id="btn-valor"
+            />
+            <button class="botao btn btn-success col" id="botao-mais">+</button>
           </div>
+          <br />
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          class="card-img-top"
+          src="https://res.cloudinary.com/do1xokw4u/image/upload/v1695695243/e10951df4cb02142fd4d6a14c3f59bb9_bjzewl.webp"
+          alt=""
+        />
+
+        <div class="card-body">
+          <h5 class="card-title">Coca-cola-350ml</h5>
+          <p class="fw-medium">Lata-descartavel</p>
+          <div class="row align-items-start">
+            <button class="botao btn btn-danger col" id="btn-menos">-</button>
+            <input
+              class="text-center col fs-4 form-control"
+              type="number"
+              name="btn-valor"
+              id="btn-valor"
+            />
+            <button class="botao btn btn-success col" id="botao-mais">+</button>
+          </div>
+          <br />
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          class="card-img-top"
+          src="https://res.cloudinary.com/do1xokw4u/image/upload/v1695695243/e10951df4cb02142fd4d6a14c3f59bb9_bjzewl.webp"
+          alt=""
+        />
+
+        <div class="card-body">
+          <h5 class="card-title">Coca-cola-350ml</h5>
+          <p class="fw-medium">Lata-descartavel</p>
+          <div class="row align-items-start">
+            <button class="botao btn btn-danger col" id="btn-menos">-</button>
+            <input
+              class="text-center col fs-4 form-control"
+              type="number"
+              name="btn-valor"
+              id="btn-valor"
+            />
+            <button class="botao btn btn-success col" id="botao-mais">+</button>
+          </div>
+          <br />
         </div>
       </div>
     </div>
+    <!--Card-Produto -->
+
+    <!--Card-Produto -->
+    <div class="container-fluid row" id="limpeza">
+      <div class="card col-6" style="width: 18rem">
+        <img
+          class="card-img-top"
+          src="https://res.cloudinary.com/do1xokw4u/image/upload/v1695695243/e10951df4cb02142fd4d6a14c3f59bb9_bjzewl.webp"
+          alt=""
+        />
+
+        <div class="card-body">
+          <h5 class="card-title">Coca-cola-350ml</h5>
+          <p class="fw-medium">Lata-descartavel</p>
+          <div class="row align-items-start">
+            <button class="botao btn btn-danger col" id="btn-menos">-</button>
+            <input
+              class="text-center col fs-4 form-control"
+              type="number"
+              name="btn-valor"
+              id="btn-valor"
+            />
+            <button class="botao btn btn-success col" id="botao-mais">+</button>
+          </div>
+          <br />
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          class="card-img-top"
+          src="https://res.cloudinary.com/do1xokw4u/image/upload/v1695695243/e10951df4cb02142fd4d6a14c3f59bb9_bjzewl.webp"
+          alt=""
+        />
+
+        <div class="card-body">
+          <h5 class="card-title">Coca-cola-350ml</h5>
+          <p class="fw-medium">Lata-descartavel</p>
+          <div class="row align-items-start">
+            <button class="botao btn btn-danger col" id="btn-menos">-</button>
+            <input
+              class="text-center col fs-4 form-control"
+              type="number"
+              name="btn-valor"
+              id="btn-valor"
+            />
+            <button class="botao btn btn-success col" id="botao-mais">+</button>
+          </div>
+          <br />
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          class="card-img-top"
+          src="https://res.cloudinary.com/do1xokw4u/image/upload/v1695695243/e10951df4cb02142fd4d6a14c3f59bb9_bjzewl.webp"
+          alt=""
+        />
+
+        <div class="card-body">
+          <h5 class="card-title">Coca-cola-350ml</h5>
+          <p class="fw-medium">Lata-descartavel</p>
+          <div class="row align-items-start">
+            <button class="botao btn btn-danger col" id="btn-menos">-</button>
+            <input
+              class="text-center col fs-4 form-control"
+              type="number"
+              name="btn-valor"
+              id="btn-valor"
+            />
+            <button class="botao btn btn-success col" id="botao-mais">+</button>
+          </div>
+          <br />
+        </div>
+      </div>
+    </div>
+    <!--Card-Produto -->
 
     <script src="index.js"></script>
     <script
