@@ -1,0 +1,13 @@
+// styles.scss
+$cor-primaria: #3498db;
+$cor-de-fundo: #f2f2f2;
+
+body {
+  background-color: $cor-de-fundo;
+}
+
+.botao {
+  background-color: $cor-primaria;
+  color: #fff;
+  padding: 10px 20px;
+}
