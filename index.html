@@ -18,7 +18,7 @@
         <a class="navbar-brand">SoftList</a>
         <form class="d-flex" role="search">
           <input
-            class="form-control me-2"
+            class="form-control m-2"
             type="search"
             placeholder="Procurar"
             aria-label="Search"
@@ -27,14 +27,15 @@
         </form>
       </div>
     </nav>
-    <div class="col-12 row align-items-start">
-      <button class="botao btn btn-darck col border" id="sessoes">
-        Sessões
-      </button>
 
-      <button class="botao btn btn-darck col border" id="lista">Lista</button>
+    <div class="container col-6">
+      <div class="col-12 row align-items-start p-2">
+        <button class="btn btn-outline-dark col" id="sessoes">Sessões</button>
+
+        <button class="btn btn-outline-dark col" id="lista">Lista</button>
+      </div>
     </div>
-    <div class="col-6">
+    <div class="col-6 p-1">
       <select
         class="form-select form-select-lg mb-3"
         aria-label="Large select example"
@@ -47,77 +48,160 @@
     </div>
 
     <!--Card-Produto -->
-    <div class="container-fluid row p-5" id="bebidas">
-      <div class="card col-6" style="width: 18rem">
-        <img
-          class="card-img-top"
-          src="https://res.cloudinary.com/do1xokw4u/image/upload/v1695695243/e10951df4cb02142fd4d6a14c3f59bb9_bjzewl.webp"
-          alt=""
-        />
+    <div class="container-fluid teste2 p-1" id="bebidas">
+      <div class="test">
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="https://res.cloudinary.com/do1xokw4u/image/upload/v1695695243/e10951df4cb02142fd4d6a14c3f59bb9_bjzewl.webp"
+            alt=""
+          />
 
-        <div class="card-body">
-          <h5 class="card-title">Coca-cola-350ml</h5>
-          <p class="fw-medium">Lata-descartavel</p>
-          <div class="row align-items-start">
-            <button class="botao btn btn-danger col" id="btn-menos">-</button>
-            <input
-              class="text-center col fs-4 form-control"
-              type="number"
-              name="btn-valor"
-              id="btn-valor"
-            />
-            <button class="botao btn btn-success col" id="botao-mais">+</button>
+          <div class="card-body">
+            <h5 class="card-title">Coca-cola-350ml</h5>
+            <p class="fw-medium">Lata-descartavel</p>
+            <div class="row align-items-start">
+              <div class="stepperInput">
+                <button class="button button--addOnLeft">-</button>
+                <input
+                  type="text"
+                  placeholder="Age"
+                  value="0"
+                  class="input stepperInput__input"
+                />
+                <button class="button button--addOnRight">+</button>
+              </div>
+            </div>
           </div>
-          <br />
         </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img
-          class="card-img-top"
-          src="https://res.cloudinary.com/do1xokw4u/image/upload/v1695695243/e10951df4cb02142fd4d6a14c3f59bb9_bjzewl.webp"
-          alt=""
-        />
 
-        <div class="card-body">
-          <h5 class="card-title">Coca-cola-350ml</h5>
-          <p class="fw-medium">Lata-descartavel</p>
-          <div class="row align-items-start">
-            <button class="botao btn btn-danger col" id="btn-menos">-</button>
-            <input
-              class="text-center col fs-4 form-control"
-              type="number"
-              name="btn-valor"
-              id="btn-valor"
-            />
-            <button class="botao btn btn-success col" id="botao-mais">+</button>
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="https://res.cloudinary.com/do1xokw4u/image/upload/v1695695243/e10951df4cb02142fd4d6a14c3f59bb9_bjzewl.webp"
+            alt=""
+          />
+
+          <div class="card-body">
+            <h5 class="card-title">Coca-cola-350ml</h5>
+            <p class="fw-medium">Lata-descartavel</p>
+            <div class="row align-items-start">
+              <div class="stepperInput">
+                <button class="button button--addOnLeft">-</button>
+                <input
+                  type="text"
+                  placeholder="Age"
+                  value="0"
+                  class="input stepperInput__input"
+                />
+                <button class="button button--addOnRight">+</button>
+              </div>
+            </div>
           </div>
-          <br />
         </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img
-          class="card-img-top"
-          src="https://res.cloudinary.com/do1xokw4u/image/upload/v1695695243/e10951df4cb02142fd4d6a14c3f59bb9_bjzewl.webp"
-          alt=""
-        />
 
-        <div class="card-body">
-          <h5 class="card-title">Coca-cola-350ml</h5>
-          <p class="fw-medium">Lata-descartavel</p>
-          <div class="row align-items-start">
-            <button class="botao btn btn-danger col" id="btn-menos">-</button>
-            <input
-              class="text-center col fs-4 form-control"
-              type="number"
-              name="btn-valor"
-              id="btn-valor"
-            />
-            <button class="botao btn btn-success col" id="botao-mais">+</button>
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="https://res.cloudinary.com/do1xokw4u/image/upload/v1695695243/e10951df4cb02142fd4d6a14c3f59bb9_bjzewl.webp"
+            alt=""
+          />
+
+          <div class="card-body">
+            <h5 class="card-title">Coca-cola-350ml</h5>
+            <p class="fw-medium">Lata-descartavel</p>
+            <div class="row align-items-start">
+              <div class="stepperInput">
+                <button class="button button--addOnLeft">-</button>
+                <input
+                  type="text"
+                  placeholder="Age"
+                  value="0"
+                  class="input stepperInput__input"
+                />
+                <button class="button button--addOnRight">+</button>
+              </div>
+            </div>
           </div>
-          <br />
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="https://res.cloudinary.com/do1xokw4u/image/upload/v1695695243/e10951df4cb02142fd4d6a14c3f59bb9_bjzewl.webp"
+            alt=""
+          />
+
+          <div class="card-body">
+            <h5 class="card-title">Coca-cola-350ml</h5>
+            <p class="fw-medium">Lata-descartavel</p>
+            <div class="row align-items-start">
+              <div class="stepperInput">
+                <button class="button button--addOnLeft">-</button>
+                <input
+                  type="text"
+                  placeholder="Age"
+                  value="0"
+                  class="input stepperInput__input"
+                />
+                <button class="button button--addOnRight">+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="https://res.cloudinary.com/do1xokw4u/image/upload/v1695695243/e10951df4cb02142fd4d6a14c3f59bb9_bjzewl.webp"
+            alt=""
+          />
+
+          <div class="card-body">
+            <h5 class="card-title">Coca-cola-350ml</h5>
+            <p class="fw-medium">Lata-descartavel</p>
+            <div class="row align-items-start">
+              <div class="stepperInput">
+                <button class="button button--addOnLeft">-</button>
+                <input
+                  type="text"
+                  placeholder="Age"
+                  value="0"
+                  class="input stepperInput__input"
+                />
+                <button class="button button--addOnRight">+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="https://res.cloudinary.com/do1xokw4u/image/upload/v1695695243/e10951df4cb02142fd4d6a14c3f59bb9_bjzewl.webp"
+            alt=""
+          />
+
+          <div class="card-body">
+            <h5 class="card-title">Coca-cola-350ml</h5>
+            <p class="fw-medium">Lata-descartavel</p>
+            <div class="row align-items-start">
+              <div class="stepperInput">
+                <button class="button button--addOnLeft">-</button>
+                <input
+                  type="text"
+                  placeholder="Age"
+                  value="0"
+                  class="input stepperInput__input"
+                />
+                <button class="button button--addOnRight">+</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
     <!--Card-Produto -->
 
     <script src="index.js"></script>
