@@ -2,14 +2,14 @@
   margin: 0 auto;
 }
 
-.teste2 {
+/* .teste2 {
   display: flex;
   justify-content: center;
-}
+} */
 
-.test {
+.grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 2fr);
 
   grid-column-gap: 13px;
   grid-row-gap: 17px;
@@ -58,4 +58,9 @@
   padding: 0 10px;
   border-radius: 0;
   box-shadow: none;
+}
+footer {
+  padding: 7px;
+  text-align: center;
+  text-decoration: black;
 }
